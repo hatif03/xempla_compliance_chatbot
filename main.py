@@ -182,11 +182,9 @@ else:
     st.info("""
     👋 **Welcome! To use this app, you need:**
     
-    1. **Anthropic API Key** - For Claude AI model
-       - Sign up at [console.anthropic.com](https://console.anthropic.com/)
+    1. **Groq API Key** - For Claude AI model
     
-    2. **OpenAI API Key** - For embeddings
-       - Sign up at [platform.openai.com](https://platform.openai.com/)
+    2. **Gemini** - For embeddings
     
     Once you have both keys, enter them above to start!
     """)
@@ -200,7 +198,7 @@ with st.expander("📖 How This Works"):
     1. **Knowledge Loading**: URLs are processed and stored in a vector database (LanceDB)
     2. **Vector Search**: Uses Gemini's embeddings for semantic search to find relevant information
     3. **Reasoning Tools**: The agent uses special tools to think through problems step-by-step
-    4. **Groq Llama**: Llama 3.1 8b model processes the information and generates answers
+    4. **Groq DeepSeek**: DeepSeek processes the information and generates answers
     
     **Key Components:**
     - `WebKnowledgeBase`: Manages data scraping from websites
