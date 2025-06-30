@@ -9,6 +9,7 @@ agno = "*"
 google-genai = "*"
 groq = "*"
 lancedb = "*"
+beautifulsoup4 = "*"
 
 [dev-packages]
 
